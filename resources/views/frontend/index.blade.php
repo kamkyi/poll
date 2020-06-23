@@ -16,13 +16,19 @@
         </div><!--col-->
     </div><!--row-->
 
-    <div class="row mb-4">
+    {{-- <div class="card">
+        <div class="card-body">
+            <img src="" class='img-responsive'/>
+        </div>
+    </div> --}}
+
+    {{-- <div class="row mb-4">
         <div class="col">
             <example-component></example-component>
         </div><!--col-->
-    </div><!--row-->
+    </div><!--row--> --}}
 
-    <div class="row">
+    {{-- <div class="row">
         <div class="col">
             <div class="card">
                 <div class="card-header">
@@ -36,5 +42,5 @@
                 </div><!--card-body-->
             </div><!--card-->
         </div><!--col-->
-    </div><!--row-->
+    </div><!--row--> --}}
 @endsection
