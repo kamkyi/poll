@@ -47,6 +47,7 @@ return [
             'general' => 'General',
             'history' => 'History',
             'system' => 'System',
+            'poll' => 'Poll'
         ],
     ],
 
