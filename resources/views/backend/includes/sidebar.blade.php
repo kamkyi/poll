@@ -13,12 +13,39 @@
                 </a>
             </li>
 
+            <li class="nav-title">
+                @lang('menus.backend.sidebar.flower')
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link {{
+                    active_class(Route::is('admin/dashboard'))
+                }}" href="{{ route('admin.dashboard') }}">
+                    <i class="nav-icon fas fa-star"></i>
+                    @lang('menus.backend.sidebar.per_flower_rate')
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link {{
+                    active_class(Route::is('admin/dashboard'))
+                }}" href="{{ route('admin.dashboard') }}">
+                    <i class="nav-icon fas fa-gift"></i>
+                    @lang('menus.backend.sidebar.package')
+                </a>
+            </li>
+
+
+            <li class="nav-title">
+                @lang('menus.backend.sidebar.poll')
+            </li>
+
             <li class="nav-item">
                 <a class="nav-link {{
                     active_class(Route::is('admin/dashboard'))
                 }}" href="{{ route('admin.dashboard') }}">
                     <i class="nav-icon fas fa-dice"></i>
-                    @lang('menus.backend.sidebar.poll')
+                    @lang('menus.backend.sidebar.event')
                 </a>
             </li>
 

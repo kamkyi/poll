@@ -48,7 +48,11 @@ return [
             'history' => 'History',
             'system' => 'System',
             'poll' => 'Poll',
-            'floral' => 'Floral'
+            'floral' => 'Floral',
+            'flower' => 'Flower',
+            'per_flower_rate' => 'Rate',
+            'package' => 'Package',
+            'event' => 'Event'
         ],
     ],
 
